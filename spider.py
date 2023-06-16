@@ -16,7 +16,7 @@ def get_python_projects(pages):
     }
 
     # 创建 CSV 文件并写入标题行
-    with open("python_projects.csv", "w", newline="", encoding="utf-8") as csvfile:
+    with open("result.csv", "w", newline="", encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(["项目名称", "星标数量", "链接"])
 
